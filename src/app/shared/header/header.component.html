@@ -1,0 +1,15 @@
+<div class="header">
+    <mat-toolbar>
+        <span>Maids<span style="color:blueviolet;">cc</span></span>
+    </mat-toolbar>
+    <form class="example-form">
+        <mat-form-field appearance="legacy">
+            <mat-label>Input</mat-label>
+            <input matInput (input)="searchForResult($event)" type="search" class="search-input"
+                [(ngModel)]="searchInput" value="{{searchInput}}">
+            <div class="result" *ngIf="result" (click)="clicked(result.id)">
+                {{result.first_name}}
+            </div>
+        </mat-form-field>
+    </form>
+</div>

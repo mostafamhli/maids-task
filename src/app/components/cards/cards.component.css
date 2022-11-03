@@ -1,0 +1,42 @@
+@media screen and (min-width: 480px) {
+    table {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.content {
+    display: block;
+    margin:82px auto 32px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+table tr td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.mat-paginator {
+    display: flex;
+    justify-content: center;
+}
+
+.mat-icon-button {
+    display: none !important;
+}
+
+.spinner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
